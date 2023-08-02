@@ -5,7 +5,7 @@
    int mul=a*b;
    double div=a/b;
    int mod=a%b;
-   print('a=$a,b=$b');
+   print('a = $a, b = $b');
    print('Addition: $a + $b = $add'); 
    print('Substraction: $a - $b = $sub');
    print('Multiplication: $a * $b= $mul');
