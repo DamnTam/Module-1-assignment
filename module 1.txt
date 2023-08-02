@@ -8,7 +8,7 @@
    print('a = $a, b = $b');
    print('Addition: $a + $b = $add'); 
    print('Substraction: $a - $b = $sub');
-   print('Multiplication: $a * $b= $mul');
+   print('Multiplication: $a * $b = $mul');
    print('Division: $a / $b = $div');  
    print('Modulus: $a % $b = $mod');  
 }
