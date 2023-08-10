@@ -5,10 +5,11 @@ void main() {
     cnt += i;
   }
   int len = grade.length;
-  var avg = cnt/len;
+  var avg = cnt / len;
+  int r_avg = avg.round();
   print("Student's average grade: $avg");
-  print('Rounded average: ${avg.round()}');
-  if (avg >= 70) {
+  print('Rounded average: $r_avg');
+  if (r_avg >= 70) {
     print('Passed');
   } else {
     print('Failed');
