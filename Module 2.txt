@@ -1,0 +1,16 @@
+void main() {
+  int cnt = 0;
+  List<int> grade = [85, 92, 78, 65, 88, 72];
+  for (var i in grade) {
+    cnt += i;
+  }
+  int len = grade.length;
+  var avg = cnt/len;
+  print("Student's average grade: $avg");
+  print('Rounded average: ${avg.round()}');
+  if (avg >= 70) {
+    print('Passed');
+  } else {
+    print('Failed');
+  }
+}
