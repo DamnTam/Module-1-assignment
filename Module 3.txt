@@ -40,8 +40,8 @@ void main() {
   print('Car 2: ${car2.brandMethod()} ${car2.modelMethod()} ${car2.yearMethod()} miles: ${car2.totalMilesDriven()} Age: ${car2.carAge()}');
   print('Car 3: ${car3.brandMethod()} ${car3.modelMethod()} ${car3.yearMethod()} miles: ${car3.totalMilesDriven()} Age: ${car3.carAge()}');
   print('Total number of cars created: ${Car.totalCars}');
-
 }
+
 ```
 
 
