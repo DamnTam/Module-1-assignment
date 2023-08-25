@@ -59,9 +59,9 @@ void main(){
   CurrentAccount currentAccount = CurrentAccount(33-666-77, 10000, 500);
   print('CurrentAccount Initial Balance : ${currentAccount.balance} Taka');
   currentAccount.withdraw(500);
-  print('currentAccount Balance After Withdraw : New Balance = ${currentAccount.balance}');
+  print('CurrentAccount Balance After Withdraw : New Balance = ${currentAccount.balance}');
   currentAccount.deposit(1000);
-  print('currentAccount Balance After Deposit : New Balance = ${currentAccount.balance}');
+  print('CurrentAccount Balance After Deposit : New Balance = ${currentAccount.balance}');
   currentAccount.withdraw(800); /// withdrawal amount exceeds the overdraft limit
 
 
